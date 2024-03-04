@@ -5,20 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e47476c3-9ea6-4f54-aeb5-1bd9b20946d9" name="Changes" comment="done">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/MontyHallParadox/Door.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/MontyHallParadox/Game.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/MontyHallParadox/Player.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/MontyHallParadox/Program.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/MontyHallParadox/Round.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/MontyHallParadox/SceneBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/MontyHallParadox/View.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/MontyHallParadox/AbstractTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/MontyHallParadox/DoorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/MontyHallParadox/GameTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/MontyHallParadox/PlayerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/MontyHallParadox/SceneBuilderTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/compositePattern/Bag.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/compositePattern/Boots.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/compositePattern/Item.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/compositePattern/Jeans.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/compositePattern/Program.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/compositePattern/Shampoo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/compositePattern/Shirt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/compositePattern/Sneakers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/compositePattern/ToothBrash.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/compositePattern/ToothPaste.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/compositePattern/AbstractTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/compositePattern/BagTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/compositePattern/BootsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/compositePattern/JeansTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/compositePattern/ShampooTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/compositePattern/ShirtTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/compositePattern/SneakersTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/compositePattern/ToothBrashTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/compositePattern/ToothPasteTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -29,6 +34,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -75,7 +81,14 @@
       <option name="project" value="LOCAL" />
       <updated>1708689338241</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="done">
+      <created>1708965249578</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1708965249578</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
