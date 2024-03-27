@@ -4,27 +4,29 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e47476c3-9ea6-4f54-aeb5-1bd9b20946d9" name="Changes" comment="done">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/compositePattern/Bag.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/compositePattern/Boots.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/compositePattern/Item.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/compositePattern/Jeans.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/compositePattern/Program.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/compositePattern/Shampoo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/compositePattern/Shirt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/compositePattern/Sneakers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/compositePattern/ToothBrash.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/compositePattern/ToothPaste.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/compositePattern/AbstractTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/compositePattern/BagTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/compositePattern/BootsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/compositePattern/JeansTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/compositePattern/ShampooTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/compositePattern/ShirtTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/compositePattern/SneakersTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/compositePattern/ToothBrashTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/compositePattern/ToothPasteTest.java" afterDir="false" />
+    <list default="true" id="e47476c3-9ea6-4f54-aeb5-1bd9b20946d9" name="Changes" comment="HW 2 is done">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/accuweather/location/AdministrativeArea.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/accuweather/location/Country.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/accuweather/location/Location.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/accuweather/weather/DailyForecast.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/accuweather/weather/Day.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/accuweather/weather/Headline.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/accuweather/weather/HourlyForecast.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/accuweather/weather/HourlyTemperature.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/accuweather/weather/Maximum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/accuweather/weather/Minimum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/accuweather/weather/Night.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/accuweather/weather/Temperature.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/accuweather/weather/Weather.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/accuweather/AbstractTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/accuweather/AuthorizationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/accuweather/ForecastSomeDaysTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/accuweather/ForecastSomeHourTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/accuweather/Values.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resourсes/accuweather.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,9 +57,119 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.30689654"
   }
 }]]></component>
+  <component name="RunManager" selected="JUnit.ForecastSomeHourTest.checkSomeHourForecast">
+    <configuration name="AuthorizationTest.checkNotCorrectToken" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="QA_Automation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.accuweather.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.accuweather" />
+      <option name="MAIN_CLASS_NAME" value="org.example.accuweather.AuthorizationTest" />
+      <option name="METHOD_NAME" value="checkNotCorrectToken" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ForecastSomeDaysTest.check5DayForecast" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="QA_Automation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.accuweather.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.accuweather" />
+      <option name="MAIN_CLASS_NAME" value="org.example.accuweather.ForecastSomeDaysTest" />
+      <option name="METHOD_NAME" value="check5DayForecast" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ForecastSomeHourTest.check12HourForecast" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="QA_Automation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.accuweather.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.accuweather" />
+      <option name="MAIN_CLASS_NAME" value="org.example.accuweather.ForecastSomeHourTest" />
+      <option name="METHOD_NAME" value="check12HourForecast(int)" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ForecastSomeHourTest.check1HourForecast" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="QA_Automation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.accuweather.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.accuweather" />
+      <option name="MAIN_CLASS_NAME" value="org.example.accuweather.ForecastSomeHourTest" />
+      <option name="METHOD_NAME" value="check1HourForecast(int)" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ForecastSomeHourTest.checkHourForecast" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="QA_Automation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.accuweather.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.accuweather" />
+      <option name="MAIN_CLASS_NAME" value="org.example.accuweather.ForecastSomeHourTest" />
+      <option name="METHOD_NAME" value="checkHourForecast" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ForecastSomeHourTest.checkSomeHourForecast" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="QA_Automation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.accuweather.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.example.accuweather" />
+      <option name="MAIN_CLASS_NAME" value="org.example.accuweather.ForecastSomeHourTest" />
+      <option name="METHOD_NAME" value="checkSomeHourForecast(int)" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ForecastSomeHourTest.checkSomeHourForecast" />
+        <item itemvalue="JUnit.ForecastSomeHourTest.check12HourForecast" />
+        <item itemvalue="JUnit.ForecastSomeHourTest.check1HourForecast" />
+        <item itemvalue="JUnit.ForecastSomeHourTest.checkHourForecast" />
+        <item itemvalue="JUnit.AuthorizationTest.checkNotCorrectToken" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -88,7 +200,14 @@
       <option name="project" value="LOCAL" />
       <updated>1708965249578</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="HW 2 is done">
+      <created>1709574415185</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1709574415185</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -107,6 +226,7 @@
     <MESSAGE value="pom update" />
     <MESSAGE value="step 1" />
     <MESSAGE value="done" />
-    <option name="LAST_COMMIT_MESSAGE" value="done" />
+    <MESSAGE value="HW 2 is done" />
+    <option name="LAST_COMMIT_MESSAGE" value="HW 2 is done" />
   </component>
 </project>
