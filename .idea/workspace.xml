@@ -4,27 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e47476c3-9ea6-4f54-aeb5-1bd9b20946d9" name="Changes" comment="HW 2 is done">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/accuweather/location/AdministrativeArea.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/accuweather/location/Country.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/accuweather/location/Location.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/accuweather/weather/DailyForecast.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/accuweather/weather/Day.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/accuweather/weather/Headline.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/accuweather/weather/HourlyForecast.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/accuweather/weather/HourlyTemperature.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/accuweather/weather/Maximum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/accuweather/weather/Minimum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/accuweather/weather/Night.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/accuweather/weather/Temperature.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/accuweather/weather/Weather.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/accuweather/AbstractTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/accuweather/AuthorizationTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/accuweather/ForecastSomeDaysTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/accuweather/ForecastSomeHourTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/accuweather/Values.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resourсes/accuweather.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="e47476c3-9ea6-4f54-aeb5-1bd9b20946d9" name="Changes" comment="HW 3 is done">
+      <change afterPath="$PROJECT_DIR$/db/homework4/migration/V1_1_0__add_product.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/homework4/migration/V2_1_0__add_customers.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/homework4/migration/V3_1_0__add_order.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/homework4/migration/V4_1_0__add_orders_products.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/homework4/migration/V5_1_0__add_courier.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/db/homework4/migration/V6_1_0__delivery.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dbTesting/CourierInfoEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dbTesting/CustomersEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dbTesting/DeliveryEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dbTesting/MainHome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dbTesting/OrdersEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dbTesting/OrdersProductsEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dbTesting/OrdersProductsEntityPK.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/dbTesting/ProductsEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/dbTesting/AbstractTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/dbTesting/ProductsTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
@@ -58,103 +55,93 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "D:/Personal documents/Education/=Projects/QA_Automation/src/test/resourсes",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.30689654"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.ForecastSomeHourTest.checkSomeHourForecast">
-    <configuration name="AuthorizationTest.checkNotCorrectToken" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Personal documents\Education\=Projects\QA_Automation\src\test\resourсes" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.ProductsTest.removeProductFromTableIfExists">
+    <configuration name="ProductsTest.addNewProduct" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="QA_Automation" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.accuweather.*" />
+          <option name="PATTERN" value="org.example.dbTesting.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example.accuweather" />
-      <option name="MAIN_CLASS_NAME" value="org.example.accuweather.AuthorizationTest" />
-      <option name="METHOD_NAME" value="checkNotCorrectToken" />
+      <option name="PACKAGE_NAME" value="org.example.dbTesting" />
+      <option name="MAIN_CLASS_NAME" value="org.example.dbTesting.ProductsTest" />
+      <option name="METHOD_NAME" value="addNewProduct" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ForecastSomeDaysTest.check5DayForecast" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ProductsTest.addNewProductIntoTable" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="QA_Automation" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.accuweather.*" />
+          <option name="PATTERN" value="org.example.dbTesting.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example.accuweather" />
-      <option name="MAIN_CLASS_NAME" value="org.example.accuweather.ForecastSomeDaysTest" />
-      <option name="METHOD_NAME" value="check5DayForecast" />
+      <option name="PACKAGE_NAME" value="org.example.dbTesting" />
+      <option name="MAIN_CLASS_NAME" value="org.example.dbTesting.ProductsTest" />
+      <option name="METHOD_NAME" value="addNewProductIntoTable" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ForecastSomeHourTest.check12HourForecast" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ProductsTest.checkPriceByMenuName (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="QA_Automation" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.accuweather.*" />
+          <option name="PATTERN" value="org.example.dbTesting.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example.accuweather" />
-      <option name="MAIN_CLASS_NAME" value="org.example.accuweather.ForecastSomeHourTest" />
-      <option name="METHOD_NAME" value="check12HourForecast(int)" />
+      <option name="PACKAGE_NAME" value="org.example.dbTesting" />
+      <option name="MAIN_CLASS_NAME" value="org.example.dbTesting.ProductsTest" />
+      <option name="METHOD_NAME" value="checkPriceByMenuName(java.lang.String,float)" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ForecastSomeHourTest.check1HourForecast" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ProductsTest.checkPriceByMenuName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="QA_Automation" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.accuweather.*" />
+          <option name="PATTERN" value="org.example.dbTesting.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example.accuweather" />
-      <option name="MAIN_CLASS_NAME" value="org.example.accuweather.ForecastSomeHourTest" />
-      <option name="METHOD_NAME" value="check1HourForecast(int)" />
+      <option name="PACKAGE_NAME" value="org.example.dbTesting" />
+      <option name="MAIN_CLASS_NAME" value="org.example.dbTesting.ProductsTest" />
+      <option name="METHOD_NAME" value="checkPriceByMenuName(java.lang.String,int)" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ForecastSomeHourTest.checkHourForecast" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ProductsTest.removeProductFromTableIfExists" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="QA_Automation" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.accuweather.*" />
+          <option name="PATTERN" value="org.example.dbTesting.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example.accuweather" />
-      <option name="MAIN_CLASS_NAME" value="org.example.accuweather.ForecastSomeHourTest" />
-      <option name="METHOD_NAME" value="checkHourForecast" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ForecastSomeHourTest.checkSomeHourForecast" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="QA_Automation" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.accuweather.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="org.example.accuweather" />
-      <option name="MAIN_CLASS_NAME" value="org.example.accuweather.ForecastSomeHourTest" />
-      <option name="METHOD_NAME" value="checkSomeHourForecast(int)" />
+      <option name="PACKAGE_NAME" value="org.example.dbTesting" />
+      <option name="MAIN_CLASS_NAME" value="org.example.dbTesting.ProductsTest" />
+      <option name="METHOD_NAME" value="removeProductFromTableIfExists" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -162,11 +149,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ForecastSomeHourTest.checkSomeHourForecast" />
-        <item itemvalue="JUnit.ForecastSomeHourTest.check12HourForecast" />
-        <item itemvalue="JUnit.ForecastSomeHourTest.check1HourForecast" />
-        <item itemvalue="JUnit.ForecastSomeHourTest.checkHourForecast" />
-        <item itemvalue="JUnit.AuthorizationTest.checkNotCorrectToken" />
+        <item itemvalue="JUnit.ProductsTest.removeProductFromTableIfExists" />
+        <item itemvalue="JUnit.ProductsTest.addNewProductIntoTable" />
+        <item itemvalue="JUnit.ProductsTest.addNewProduct" />
+        <item itemvalue="JUnit.ProductsTest.checkPriceByMenuName (1)" />
+        <item itemvalue="JUnit.ProductsTest.checkPriceByMenuName" />
       </list>
     </recent_temporary>
   </component>
@@ -207,7 +194,14 @@
       <option name="project" value="LOCAL" />
       <updated>1709574415185</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="HW 3 is done">
+      <created>1711556593203</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1711556593203</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -227,6 +221,7 @@
     <MESSAGE value="step 1" />
     <MESSAGE value="done" />
     <MESSAGE value="HW 2 is done" />
-    <option name="LAST_COMMIT_MESSAGE" value="HW 2 is done" />
+    <MESSAGE value="HW 3 is done" />
+    <option name="LAST_COMMIT_MESSAGE" value="HW 3 is done" />
   </component>
 </project>
