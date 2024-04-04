@@ -1,8 +1,13 @@
 package org.example.accuweather;
 
+import io.qameta.allure.Description;
+import io.qameta.allure.Severity;
+import io.qameta.allure.SeverityLevel;
+import io.qameta.allure.Story;
 import org.example.accuweather.weather.HourlyForecast;
 import org.example.accuweather.weather.Weather;
 import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.MethodSource;
@@ -17,6 +22,10 @@ import static org.hamcrest.Matchers.lessThan;
 public class ForecastSomeHourTest extends AbstractTest{
 
     @ParameterizedTest
+    @DisplayName("check1HourForecast")
+    @Description("Проверка предоставления прогноза на 1 час")
+    @Severity(SeverityLevel.BLOCKER)
+    @Story("Тестирование предоставления прогнозов по часам")
     @MethodSource("getLocationCode")
     void check1HourForecast(int locationCode) {
         List<HourlyForecast> weather = Arrays.asList(given().queryParam("apikey", getApiKey())
@@ -32,6 +41,10 @@ public class ForecastSomeHourTest extends AbstractTest{
 
 
     @ParameterizedTest
+    @DisplayName("check12HourForecast")
+    @Description("Проверка предоставления прогноза на 12 часов")
+    @Severity(SeverityLevel.BLOCKER)
+    @Story("Тестирование предоставления прогнозов по часам")
     @MethodSource("getLocationCode")
     void check12HourForecast(int locationCode) {
         List<HourlyForecast> weather = Arrays.asList(given().queryParam("apikey", getApiKey())
@@ -46,6 +59,10 @@ public class ForecastSomeHourTest extends AbstractTest{
     }
 
     @ParameterizedTest
+    @DisplayName("check24HourForecast")
+    @Description("Проверка предоставления прогноза на 24 часа")
+    @Severity(SeverityLevel.BLOCKER)
+    @Story("Тестирование предоставления прогнозов по часам")
     @MethodSource("getLocationCode")
     void check24HourForecast(int locationCode) {
         List<HourlyForecast> weather = Arrays.asList(given().queryParam("apikey", getApiKey())
@@ -60,6 +77,10 @@ public class ForecastSomeHourTest extends AbstractTest{
     }
 
     @ParameterizedTest
+    @DisplayName("check72HourForecast")
+    @Description("Проверка предоставления прогноза на 72 часа")
+    @Severity(SeverityLevel.CRITICAL)
+    @Story("Тестирование предоставления прогнозов по часам")
     @MethodSource("getLocationCode")
     void check72HourForecast(int locationCode) {
         List<HourlyForecast> weather = Arrays.asList(given().queryParam("apikey", getApiKey())
@@ -74,6 +95,10 @@ public class ForecastSomeHourTest extends AbstractTest{
     }
 
     @ParameterizedTest
+    @DisplayName("check120HourForecast")
+    @Description("Проверка предоставления прогноза на 120 часов")
+    @Severity(SeverityLevel.CRITICAL)
+    @Story("Тестирование предоставления прогнозов по часам")
     @MethodSource("getLocationCode")
     void check120HourForecast(int locationCode) {
         List<HourlyForecast> weather = Arrays.asList(given().queryParam("apikey", getApiKey())
@@ -88,6 +113,10 @@ public class ForecastSomeHourTest extends AbstractTest{
     }
 
     @ParameterizedTest
+    @DisplayName("checkSomeHourForecast")
+    @Description("Проверка предоставления прогноза на разное количество часов")
+    @Severity(SeverityLevel.BLOCKER)
+    @Story("Тестирование предоставления прогнозов по часам")
     @ValueSource(ints = {1, 12, 24, 72, 120})
     void checkSomeHourForecast(int hour) {
         List<HourlyForecast> weather = Arrays.asList(given().queryParam("apikey", getApiKey())

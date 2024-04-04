@@ -1,8 +1,13 @@
 package org.example.accuweather;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
+import io.qameta.allure.Description;
+import io.qameta.allure.Severity;
+import io.qameta.allure.SeverityLevel;
+import io.qameta.allure.Story;
 import org.example.accuweather.weather.Weather;
 import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.*;
@@ -18,6 +23,10 @@ public class ForecastSomeDaysTest extends AbstractTest{
     private static Logger logger = LoggerFactory.getLogger(ForecastSomeDaysTest.class);
 
     @ParameterizedTest
+    @DisplayName("check1DayForecast")
+    @Description("Проверка предоставления прогноза на 1 день")
+    @Severity(SeverityLevel.BLOCKER)
+    @Story("Тестирование предоставления прогнозов по дням")
     @MethodSource("getLocationCode")
     void check1DayForecast(int locationCode) {
         logger.debug("parametrized check1DayForecast method call");
@@ -34,6 +43,10 @@ public class ForecastSomeDaysTest extends AbstractTest{
     }
 
     @ParameterizedTest
+    @DisplayName("check5DayForecast")
+    @Description("Проверка предоставления прогноза на 5 дней")
+    @Severity(SeverityLevel.BLOCKER)
+    @Story("Тестирование предоставления прогнозов по дням")
     @MethodSource("getLocationCode")
     void check5DayForecast(int locationCode) {
         logger.debug("parametrized check5DayForecast method call");
@@ -50,6 +63,10 @@ public class ForecastSomeDaysTest extends AbstractTest{
     }
 
     @ParameterizedTest
+    @DisplayName("check10DayForecast")
+    @Description("Проверка предоставления прогноза на 10 дней")
+    @Severity(SeverityLevel.BLOCKER)
+    @Story("Тестирование предоставления прогнозов по дням")
     @MethodSource("getLocationCode")
     void check10DayForecast(int locationCode) {
         logger.debug("parametrized check10DayForecast method call");
@@ -66,6 +83,10 @@ public class ForecastSomeDaysTest extends AbstractTest{
     }
 
     @ParameterizedTest
+    @DisplayName("check15DayForecast")
+    @Description("Проверка предоставления прогноза на 15 дней")
+    @Severity(SeverityLevel.CRITICAL)
+    @Story("Тестирование предоставления прогнозов по дням")
     @MethodSource("getLocationCode")
     void check15DayForecast(int locationCode) {
         logger.debug("parametrized check15DayForecast method call");
@@ -82,6 +103,10 @@ public class ForecastSomeDaysTest extends AbstractTest{
     }
 
     @ParameterizedTest
+    @DisplayName("checkSomeDayForecast")
+    @Description("Проверка предоставления прогноза на разное количество дней")
+    @Severity(SeverityLevel.BLOCKER)
+    @Story("Тестирование предоставления прогнозов по дням")
     @ValueSource(ints = {1, 5, 10, 15})
     void checkSomeDayForecast(int day) {
         logger.debug("parametrized checkSomeDayForecast method call");
@@ -96,18 +121,6 @@ public class ForecastSomeDaysTest extends AbstractTest{
                 () -> Assertions.assertEquals(day, weather.getDailyForecasts().size())
         );
     }
-
-//    @Test
-//    void checkSomeDayForecastMocked() {
-//        logger.debug("parametrized checkSomeDayForecastMocked method call");
-//
-//        ObjectMapper objectMapper = new ObjectMapper();
-//
-//
-//        logger.debug("Building Mock for GET-request /forecasts/v1/daily/1day/5");
-//        stubFor(get(urlPathEqualTo(getDailyForecastURL() + "1day/5"))
-//                .withQueryParam())
-//    }
 
 }
 

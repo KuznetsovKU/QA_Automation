@@ -2,6 +2,10 @@ package org.example.accuweather;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import io.qameta.allure.Description;
+import io.qameta.allure.Severity;
+import io.qameta.allure.SeverityLevel;
+import io.qameta.allure.Story;
 import org.apache.http.HttpResponse;
 import org.apache.http.client.methods.HttpGet;
 import org.apache.http.client.utils.URIBuilder;
@@ -9,6 +13,7 @@ import org.apache.http.impl.client.CloseableHttpClient;
 import org.apache.http.impl.client.HttpClients;
 import org.example.accuweather.location.Country;
 import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -24,6 +29,10 @@ public class CountryTest extends AbstractTest {
     private static Logger logger = LoggerFactory.getLogger(CountryTest.class);
 
     @Test
+    @DisplayName("get_shouldReturnCode200 in CountryTest")
+    @Description("Проверка возврата кода ответа 200 на стабе")
+    @Severity(SeverityLevel.CRITICAL)
+    @Story("Тестирование запросов по Country")
     void get_shouldReturnCode200() throws IOException, URISyntaxException {
         logger.debug("Starting test for responseCode200");
 

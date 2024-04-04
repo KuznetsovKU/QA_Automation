@@ -1,6 +1,10 @@
 package org.example.accuweather;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
+import io.qameta.allure.Description;
+import io.qameta.allure.Severity;
+import io.qameta.allure.SeverityLevel;
+import io.qameta.allure.Story;
 import org.apache.http.HttpResponse;
 import org.apache.http.client.methods.HttpGet;
 import org.apache.http.client.utils.URIBuilder;
@@ -8,6 +12,7 @@ import org.apache.http.impl.client.CloseableHttpClient;
 import org.apache.http.impl.client.HttpClients;
 import org.example.accuweather.location.Location;
 import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -24,6 +29,10 @@ public class LocationTest extends AbstractTest{
     private static final Logger logger = LoggerFactory.getLogger(LocationTest.class);
 
     @Test
+    @DisplayName("get_shouldReturnCode200 in LocationTest")
+    @Description("Проверка возврата кода ответа 200 на стабе")
+    @Severity(SeverityLevel.BLOCKER)
+    @Story("Тестирование запросов по Location")
     void get_shouldReturnCode200() throws IOException, URISyntaxException {
         logger.info("Starting test for responseCode200");
 
@@ -72,6 +81,10 @@ public class LocationTest extends AbstractTest{
     }
 
     @Test
+    @DisplayName("get_shouldReturnCode401 in LocationTest")
+    @Description("Проверка возврата кода ответа 401 на стабе")
+    @Severity(SeverityLevel.BLOCKER)
+    @Story("Тестирование запросов по Location")
     void get_shouldReturnCode401() throws URISyntaxException, IOException {
         logger.info("Starting test for responseCode 401");
 

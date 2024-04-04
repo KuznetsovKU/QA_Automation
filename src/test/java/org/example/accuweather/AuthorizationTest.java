@@ -1,12 +1,17 @@
 package org.example.accuweather;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
+import io.qameta.allure.Description;
+import io.qameta.allure.Severity;
+import io.qameta.allure.SeverityLevel;
+import io.qameta.allure.Story;
 import org.apache.http.HttpResponse;
 import org.apache.http.client.methods.HttpGet;
 import org.apache.http.client.utils.URIBuilder;
 import org.apache.http.impl.client.CloseableHttpClient;
 import org.apache.http.impl.client.HttpClients;
 import org.junit.jupiter.api.Assertions;
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -25,6 +30,10 @@ public class AuthorizationTest extends AbstractTest{
     private static Logger logger = LoggerFactory.getLogger(AuthorizationTest.class);
 
     @Test
+    @DisplayName("checkCorrectToken")
+    @Description("Проверка авторизации по корректному токену")
+    @Severity(SeverityLevel.BLOCKER)
+    @Story("Тестирование авторизации")
     void checkCorrectToken() {
         logger.debug("checkCorrectToken method call");
         given().queryParam("apikey", getApiKey())
@@ -33,6 +42,10 @@ public class AuthorizationTest extends AbstractTest{
     }
 
     @Test
+    @DisplayName("checkNotCorrectToken")
+    @Description("Проверка авторизации с некорректным токеном")
+    @Severity(SeverityLevel.BLOCKER)
+    @Story("Тестирование авторизации")
     void checkNotCorrectToken() {
         logger.debug("checkNotCorrectToken method call");
         given().queryParam("apikey", getApiKey() + "d")
@@ -41,6 +54,10 @@ public class AuthorizationTest extends AbstractTest{
     }
 
     @Test
+    @DisplayName("checkTokenMocked")
+    @Description("Проверка авторизации на стабе")
+    @Severity(SeverityLevel.BLOCKER)
+    @Story("Тестирование авторизации")
     void checkTokenMocked() throws URISyntaxException, IOException {
         logger.debug("checkCorrectTokenMocked method start");
 
